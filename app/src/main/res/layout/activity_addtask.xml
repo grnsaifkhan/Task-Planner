@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d24b03"
+    tools:context=".AddtaskActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home Task"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#360707"
+            android:textSize="30sp"/>
+        <TextView
+            android:id="@+id/task_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Task Date"
+            android:textSize="18sp"
+            android:paddingLeft="4dp"
+            android:textColor="#ffd3ad"
+            android:lines="1"/>
+
+        <EditText
+            android:id="@+id/task_user1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Task For Arshi Faiza"
+            android:maxLength="200"
+            android:backgroundTint="@color/colorTint"
+            android:textColor="#ffd3ad"
+            android:lines="6"/>
+        <EditText
+            android:id="@+id/remark_user1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Remark For Arshi Faiza"
+            android:textColor="#ffd3ad"
+            android:maxLength="100"
+            android:backgroundTint="@color/colorTint"
+            android:lines="2"/>
+        <EditText
+            android:id="@+id/task_user2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Task For Shafe Ahanaf"
+            android:maxLength="200"
+            android:backgroundTint="@color/colorTint"
+            android:textColor="#ffd3ad"
+            android:lines="6"/>
+        <EditText
+            android:id="@+id/remark_user2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Remark For Shafe Ahanaf"
+            android:maxLength="100"
+            android:backgroundTint="@color/colorTint"
+            android:textColor="#ffd3ad"
+            android:lines="2"/>
+        <Button
+            android:id="@+id/btn_taskSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="0.5"
+            android:layout_marginTop="25dp"
+            android:text="submit"/>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
